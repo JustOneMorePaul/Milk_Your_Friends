@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "milkyourfriends",
+  "version": "${version}",
+  "name": "Milk Your Friends",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/milkyourfriends/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.JOMPILS.milkyourfriends.MilkYourFriends_init"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
