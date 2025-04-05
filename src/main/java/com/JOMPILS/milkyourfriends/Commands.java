@@ -94,7 +94,7 @@ public class Commands {
                                 })
                         )
                 )
-                // /milkable reload
+                // /milkable reload YAAAAAY relooading :)
                 .then(CommandManager.literal("reload")
                         .executes(context -> {
                             Config.loadConfig();
